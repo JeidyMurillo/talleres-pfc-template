@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.EjercicioMaxlistTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-09-15T00:46:57" hostname="LAPTOP-SLSDBM48" time="0.02">
+  <properties/>
+  <testcase name="Lanzar excepción para lista vacía en maxLin" classname="taller.EjercicioMaxlistTest" time="0.002"/>
+  <testcase name="Lanzar excepción para lista vacía en maxIt" classname="taller.EjercicioMaxlistTest" time="0.001"/>
+  <testcase name="Lanzar excepción para lista con números negativos en maxLin" classname="taller.EjercicioMaxlistTest" time="0.005"/>
+  <testcase name="Lanzar excepción para lista con números negativos en maxIt" classname="taller.EjercicioMaxlistTest" time="0.002"/>
+  <testcase name="Numero maximo de la Lista (42, 43, 44, 45, 46, 47, 48, 49, 50) es 50" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <testcase name="Numero maximo de la Lista (10, 20, 30, 40, 50, 60, 70) es 70" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <testcase name="Numero maximo de la Lista (100, 50, 25, 10, 5) es 100" classname="taller.EjercicioMaxlistTest" time="0.001"/>
+  <testcase name="Numero maximo de la Lista (12, 10, 8, 6, 4, 3, 2 , 1) es 12" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <testcase name="Numero maximo de la Lista (3, 14, 7, 9, 1, 18) es 18" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <testcase name="Numero maximo de la Lista (5, 1, 52, 70, 5, 80, 61, 180) es 180" classname="taller.EjercicioMaxlistTest" time="0.001"/>
+  <testcase name="Numero maximo de la Lista (99, 98, 100, 97, 96) es 100" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <testcase name="Numero maximo de la Lista (7, 7, 7, 7, 7) es 7" classname="taller.EjercicioMaxlistTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
