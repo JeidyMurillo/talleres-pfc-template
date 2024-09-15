@@ -9,14 +9,6 @@ class TorresHanoiTest extends AnyFunSuite {
     val torresHanoi = new TorresHanoi()
 
     // Pruebas para movsTorresHanoi
-    test("Los movimientos de la Torre de Hanoi con 2 discos deben ser: 3") {
-        assert(torresHanoi.movsTorresHanoi(2) == BigInt(3))
-    }
-
-    test("Los movimientos de la Torre de Hanoi con 3 discos deben ser: 7") {
-        assert(torresHanoi.movsTorresHanoi(3) == BigInt(7))
-    }
-
     test("Los movimientos de la Torre de Hanoi con 4 discos deben ser: 15") {
         assert(torresHanoi.movsTorresHanoi(4) == BigInt(15))
     }
@@ -28,6 +20,18 @@ class TorresHanoiTest extends AnyFunSuite {
     test("Los movimientos de la Torre de Hanoi con 6 discos deben ser: 63") {
         assert(torresHanoi.movsTorresHanoi(6) == BigInt(63))
     } 
+
+    test("Los movimientos de la Torre de Hanoi con 7 discos deben ser: 127") {
+        assert(torresHanoi.movsTorresHanoi(7) == BigInt(127))
+    }
+
+    test("Los movimientos de la Torre de Hanoi con 8 discos deben ser: 255") {
+        assert(torresHanoi.movsTorresHanoi(8) == BigInt(255))
+    }
+
+    test("Los movimientos de la Torre de Hanoi con 9 discos deben ser: 511") {
+        assert(torresHanoi.movsTorresHanoi(9) == BigInt(511))
+    }
 
     // Pruebas para torresHanoi
     test("Torre Hanoi con 2 discos debe devolver los movimientos correctos") {
